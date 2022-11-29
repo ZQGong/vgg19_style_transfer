@@ -9,3 +9,5 @@ This project implements the algorithm found in [(Gatys 2016)](https://www.cv-fou
 
 Libraries required - 
 --------------------
+The model is mainly based on the pytorch framework, and the torch and torchvision libraries need to be installed. The image data is imported using the PIL library.
+
