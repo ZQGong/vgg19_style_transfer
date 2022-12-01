@@ -1,7 +1,8 @@
 # vgg19_style_transf
 % Readme                                   
-% Image Style Transfer Using Convolutional Neural Networks                                    
-%                                                                     
+% Image Style Transfer Using Convolutional Neural Networks        
+%
+% "VGG" stands for the Oxford Visual Geometry Group at the University of Oxford, which is part of the Robotics Research Group, founded in 1985, and whose research ranges from machine learning to mobile robotics.
 
 About the Project - 
 --------------------
