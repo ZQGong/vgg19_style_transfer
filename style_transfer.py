@@ -155,9 +155,8 @@ for step in range(500):
 
     if step % 20 == 0:
         print("step {}:".format(step))
-        print(
-            "Style Loss: {:4f} Content Loss: {:4f} Overall: {:4f}".format(style_loss.item(), content_loss.item(), loss.item())
-        )
+        print("Style Loss: {:4f} Content Loss: {:4f} Overall: {:4f}".format(style_loss.item(), content_loss.item(), loss.item()))
+        
         img = target.clone().squeeze()
         img = img.clamp_(0, 1)
         utils.save_image(img, "output-{}.png".format(step))
